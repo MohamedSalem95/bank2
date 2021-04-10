@@ -156,7 +156,7 @@ export default {
                 this.saving = false
                 this.savingError = true
                 setTimeout(() => { this.savingError = false }, 3000)
-                console.log('error')
+                console.log('error !!')
             })
         },
         validateForm (fields) {
