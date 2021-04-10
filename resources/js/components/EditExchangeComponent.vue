@@ -76,7 +76,7 @@
 </template>
 
 <script>
-let baseUrl = 'http://currencymaster2.herokuapp.com/'
+let baseUrl = 'http://currencymaster2.herokuapp.com'
 export default {
     props: {
         id: Number
