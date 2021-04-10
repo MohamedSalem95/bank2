@@ -235,9 +235,10 @@ let baseUrl = 'http://currencymaster2.herokuapp.com'
             }
         },
         mounted() {
+            this.loadingLatest = true
             axios.get(`${baseUrl}/currency_list_json`).then(res => {
                 this.currencies = res.data.currencies
-                this.loadingLatest = true
+                
                
                 // console.log(this.currencies)
             })
